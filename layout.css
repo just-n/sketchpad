@@ -1,0 +1,41 @@
+body {
+background-color: #028090;
+}
+
+#grid_container {
+width: 720px;
+height: 720px;
+margin: 50px auto;
+outline: 1px solid #F0F3BD;
+background-color: #02C39A;
+}
+
+#button_container {
+clear: both;
+text-align: center;
+margin-top: 50px;
+}
+
+a {
+background-color: #F0F3BD;
+text-decoration: none;
+color: #028090;
+padding: 5px 10px;
+margin-right: 20px;
+font-family: Tahoma, Geneva, sans-serif;
+}
+
+.grid_square {
+width: 16px;
+height: 16px;
+outline: 2px solid #F0F3BD;
+background-color: #05668D;
+float: left;
+}
+
+.new_row {
+clear: both;
+}
+.square_lit {
+background-color: #02C39A;
+}
